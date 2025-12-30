@@ -21,7 +21,7 @@ int main (){
     int n;
     cout<< "enter the value ";
     cin>> n;
-
+    
     int arr[n];
     int sum= 0;
 
@@ -29,9 +29,10 @@ int main (){
         cin>>arr[i];
     }
     for(int i=0;i<n;i++){
-        cout<<arr[i]<<" ";
         sum=sum+arr[i];
+        
     }
+    
     cout<<"sum = "<<sum ;
 
     return 0;

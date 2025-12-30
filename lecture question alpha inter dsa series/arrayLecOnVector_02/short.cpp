@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <algorithum>     
+#include <algorithm>     
 using namespace std;
 int main(){
     vector <int > v;

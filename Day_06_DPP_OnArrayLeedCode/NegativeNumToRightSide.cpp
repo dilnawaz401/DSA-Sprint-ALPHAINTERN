@@ -1,0 +1,14 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+void moveNegativesLeft(vector<int>& arr) {
+    int j = 0;  // position for next negative number
+
+    for (int i = 0; i < arr.size(); i++) {
+        if (arr[i] < 0) {
+            swap(arr[i], arr[j]);
+            j++;
+        }
+    }
+}

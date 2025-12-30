@@ -14,6 +14,5 @@ int main() {
     for(int i = 0; i < N; i++) {
         cout<<arr[i]*arr[i]<<' ';
     }
-
     return 0;
 }

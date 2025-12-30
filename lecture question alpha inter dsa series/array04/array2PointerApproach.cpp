@@ -1,0 +1,42 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>     
+using namespace std;
+int main(){
+    vector <int > v;
+    
+    v.push_back(1);
+    v.push_back(0);
+    v.push_back(0);
+    v.push_back(1);
+    v.push_back(0);
+    int n =v.size();
+
+    int i = 0;
+    int j=n-1;
+    while(i<j){
+        if (v[i]==0){
+            i++;
+        }
+        else if (v[i]==1&&v[j]==0){
+               
+        int temp =v[i];
+        v[i]=v[j];
+        v[j]=temp;
+        i++;
+        j--;
+            
+        
+
+        }
+        else{
+
+            if(v[j]==1){
+                j++;
+            }
+        }
+
+    }for (int i = 0;i <n; i++){
+        cout<< v[i]  <<endl;
+    }
+}

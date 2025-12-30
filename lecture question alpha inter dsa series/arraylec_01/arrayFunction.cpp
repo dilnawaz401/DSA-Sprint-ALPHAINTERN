@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 void display (int a[],int size){
-    for(int i=0,i =size ,i++){
+    for(int i=0;i = size ;i++){
         cout<< a[i]<<endl;
     }
 }
@@ -10,6 +10,7 @@ void display (int a[],int size){
     int size =sizeof(arr)/sizeof(arr[0]);
     cout<<size;
     display(arr , size);
+    return 0;
     
 
 }

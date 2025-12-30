@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std ;
  bool isEven (int a){
-    if ( a % 2 ==a){
+    if ( a % 2 ==0){
         return true;
     }
     else {
@@ -9,5 +9,5 @@ using namespace std ;
     }
  }
 int main(){
-    cout<< isEven(4);
+    cout<< isEven(9);
 }

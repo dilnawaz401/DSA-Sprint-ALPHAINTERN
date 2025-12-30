@@ -5,6 +5,8 @@ using namespace std;
 int main() {
    
     int N;
+
+    
     cout << "Enter the number of elements: ";
     cin >> N;
      int arr[N];

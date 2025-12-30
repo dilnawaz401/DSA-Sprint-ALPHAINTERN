@@ -11,7 +11,8 @@ int main (){
     int b = 4 ;
     cout<< "sum="<<a+b;
     return 0;
-} 
+}
+
 
 //question no. 2
 
@@ -347,7 +348,7 @@ int main (){
 // #include <iostream>
 // using namespace std;
 // int main (){
-//     
+//     float a =6.7;
 //     cout <<(int)a<< endl;
 //     return 0;
 // }

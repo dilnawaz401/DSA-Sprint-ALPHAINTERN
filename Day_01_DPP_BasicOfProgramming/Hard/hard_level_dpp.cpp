@@ -5,19 +5,20 @@
 
 
 
-#include <iostream>
-using namespace std;
-int main (){
-    int n ,sum = 0;
-    cout << "enter the value ";
-    cin>>n;
-    while(n>0){
-        sum = sum+n%10;
-        n=n/10;
-    }
-cout<<"sum of digits is ="<<sum;
-return 0;
-}
+// #include <iostream>
+// using namespace std;
+// int main (){
+//     int n ,sum = 0;
+//     cout << "enter the value ";
+//     cin>>n;
+//     while(n>0){
+//         sum = sum+n%10;
+//         n=n/10;
+//     }
+// cout<<"sum of digits is ="<<sum;
+// return 0;
+
+// }
 
 
 
@@ -341,16 +342,16 @@ return 0;
 
 
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// int main() {
-//     char ch, cb;
-//     cout << "Enter two characters ";
-//     cin >> ch >> cb;
-//     cout << "ASCII difference " << int (ch - cb);
-//     return 0;
-// }
+int main() {
+    char ch, cb;
+    cout << "Enter two characters ";
+    cin >> ch >> cb;
+    cout << "ASCII difference " << int (ch - cb);
+    return 0;
+}
 
 
 
