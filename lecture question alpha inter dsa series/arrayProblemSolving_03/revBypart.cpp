@@ -1,3 +1,7 @@
+// particular element rev.
+
+
+
 #include <iostream>
 #include <vector>
 #include <algorithm>     
@@ -27,6 +31,12 @@ int main(){
     
     
     cout<<"after reversal----------"<<endl;
-    reversebypart(2,3,v);
+    reversebypart(1,3,v);
     display(v);
 }
+
+
+
+
+
+

@@ -1,19 +1,25 @@
-// #include <iostream>
-// #include <vector>
-// using namespace std ;
-// int main (){
-//     vector <int>b;
-//     b.push_back(10);
-//     cout<< b[0];
-    
-// }
-
 #include <iostream>
-#include <vector>
-using namespace std ;
-int main (){
-    vector <int>b(3,6);
+using namespace std;
 
-    cout<<b[0];
-    
+int main() {
+    int n;
+    cout << "Enter array size: ";
+    cin >> n;
+    int arr[n];
+    cout << "Enter " << n << " numbers:\n";
+    for (int i = 0; i < n; i++) cin >> arr[i];
+
+    for (int i = 0; i < n; i++) {
+        int num = arr[i], flag = 0;
+        if (num <= 1) flag = 1;
+        for (int j = 2; j * j <= num; j++) {
+            if (num % j == 0) {
+                flag = 1;
+                break;
+            }
+        }
+        if (flag == 0) cout << num << " is prime "<< endl;
+        else cout << num << " is not prime ";
+    }
+    return 0;
 }

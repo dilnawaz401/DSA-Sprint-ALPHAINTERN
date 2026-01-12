@@ -1,46 +1,28 @@
+// Leaders in array [GFG]
+
+#include<vector>
+#include <algorithm>
 #include <iostream>
-#include <vector>
-using namespace std;
+using namespace std ;
 
+class Solution {
+public:
+    vector<int> leaders(vector<int>& arr) {
+        int n = arr.size();
+        vector<int> ans;
 
+        int maxRight = arr[n - 1];
+        ans.push_back(maxRight);   // last element is always a leader
 
+        for (int i = n - 2; i >= 0; i--) {
+            if (arr[i] >= maxRight) {
+                maxRight = arr[i];
+                ans.push_back(maxRight);
+            }
+        }
 
-
-vector<int> leaders(int a[], int n) {
-    vector<int> ans;
-    for (int i = 0; i < n; i++) {
-        bool leader = true;
-        for (int j = i + 1; j < n; j++)
-            if (a[j] > a[i]) leader = false;
-        if (leader) ans.push_back(a[i]);
+        reverse(ans.begin(), ans.end()); // to maintain order
+        return ans;
     }
-    return ans;
-}
-
-
-
-// #include <iostream>
-// #include <vector>
-// using namespace std;
-
-
-
-
-
-// <int> leaders(int a[], int n) {
-//     vector<int> ans;
-//     int maxRight = a[n - 1];
-//     ans.push_back(maxRight);
-
-//     for (int i = n - 2; i >= 0; i--) {
-//         if (a[i] >= maxRight) {
-//             maxRight = a[i];
-//             ans.push_back(a[i]);
-//         }
-//     }
-//     reverse(ans.begin(), ans.end());
-//     return ans;
-// }
-
-
+};
 
