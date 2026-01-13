@@ -1,6 +1,9 @@
 // Alternate Positive Negative [GFG]
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0e1d113 (update on dpp 6)
 // 1. Brute Force Approach (Using Extra Arrays)
 
 //Time Complexity: O(n)
