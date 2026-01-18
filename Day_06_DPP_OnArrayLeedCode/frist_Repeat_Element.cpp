@@ -3,6 +3,7 @@
 //  Brute Force Approach
 
 
+
 // Time Complexity: O(n²)
 // Space Complexity: O(1)
 
@@ -12,6 +13,7 @@
 using namespace std;
 
 int main() {
+    
     int arr[] = {1, 5, 3, 4, 3, 5, 6};
     int n = 7;
 
