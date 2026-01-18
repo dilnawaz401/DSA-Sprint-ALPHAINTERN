@@ -90,6 +90,5 @@ int main() {
             cout << maxRight << " ";
         }
     }
-
     return 0;
 }
