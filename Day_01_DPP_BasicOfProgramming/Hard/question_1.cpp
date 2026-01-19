@@ -1,9 +1,8 @@
 // question no.1
 
 
-// ### **Write a program to input a 3-digit number and print the sum of its digits.**
-
-
+// Write a program to input a 3-digit number and print the sum of its digits.**
+// using 365
 
 
 

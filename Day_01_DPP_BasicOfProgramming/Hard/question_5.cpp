@@ -6,13 +6,23 @@
 
 // Write a program to input seconds and convert them into hours, minutes, and seconds.
 
+
+
+
 #include <iostream>
 using namespace std;
-int main (){
-    int a ;
-    cout<<"enter seconds";
-    cin>>a;
-    cout<< a/60 <<"hours "<< a%60<<"minutes"<<a%60<<"secomd";
-    return 0;
 
+int main() {
+    int sec, h, m, s;
+    cin >> sec;
+
+    h = sec / 3600;
+    m = (sec % 3600) / 60;
+    s = sec % 60;
+
+    cout << "Hours = " << h << endl;
+    cout << "Minutes = " << m << endl;
+    cout << "Seconds = " << s << endl;
+
+    return 0;
 }

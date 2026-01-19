@@ -2,7 +2,7 @@
 
 // Write a program to input a 2-digit number and print the reversed number.
 
-
+// using 53
 
 
 #include <iostream>

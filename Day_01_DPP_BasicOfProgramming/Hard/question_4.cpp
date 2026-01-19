@@ -2,7 +2,7 @@
 //  question no.4
 
 
-// Write a program to input your age in years and print your age in days.
+// // input total minute in hour and minute .
 
 #include <iostream>
 using namespace std;
