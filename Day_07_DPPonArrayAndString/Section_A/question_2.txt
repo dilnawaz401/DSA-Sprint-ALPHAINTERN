@@ -1,0 +1,9 @@
+
+
+2. Why do we need a null character ('\0') in a character array?
+
+Ans. We need the null character '\0' to tell the compiler where the string ends in a character array.
+
+Example:
+
+char name[6] = "Hello";

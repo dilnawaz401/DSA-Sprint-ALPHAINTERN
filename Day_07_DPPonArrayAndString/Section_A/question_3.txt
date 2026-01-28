@@ -1,0 +1,9 @@
+
+3. What happens if we forget to add a null character at the end of a character array?
+
+
+
+Ans. If we forget to add the null character '\0', the program will not know where the string ends and may print garbage values or cause unexpected output.
+
+Example:
+Without '\0', the compiler keeps reading memory until it finds a null character somewhere else. 

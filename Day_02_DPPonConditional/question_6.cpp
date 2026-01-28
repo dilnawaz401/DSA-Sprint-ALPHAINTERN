@@ -8,16 +8,20 @@
 using namespace std;
 int main (){
     int a,r,n;
-    cout<<"enter the value ";
+    cout<<"enter the value of first term ";
     cin>>a;
-    cout<<"enter the value ";
+    cout<<"enter the value of difference  ";
     cin>>r;
     cout<<"enter the value ";
     cin>>n;
     for (int i=0;i<n;i++){
         cout<<a<<" ";
-        a+=n;
+        a+=r;
     }    
         
     return 0;
 }
+
+
+
+

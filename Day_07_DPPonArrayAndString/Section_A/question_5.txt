@@ -1,0 +1,9 @@
+
+
+
+5. How many characters can be stored in this array?
+    
+    char name[10];
+
+Ans.  char name[10];
+This array can store 9 characters only, because 1 position is reserved for the null character '\0'.

@@ -1,0 +1,7 @@
+
+
+
+
+char arr[5] = "Hello";
+cout << arr;
+

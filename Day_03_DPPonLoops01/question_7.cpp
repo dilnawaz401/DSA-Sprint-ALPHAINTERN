@@ -10,14 +10,16 @@ using namespace std;
 
 int main() {
     int n, sum = 0;
-    cout << "Enter a number: ";
     cin >> n;
 
     for (int i = 1; i <= n; i++) {
-        if (i % 2 == 0) sum -= i;
-        else sum += i;
+        if (i % 2 == 0)
+            sum -= i;   // even number → subtract
+        else
+            sum += i;   // odd number → add
     }
 
-    cout << "Sum of the series: " << sum << endl;
+    cout << sum;
     return 0;
- }
+}
+

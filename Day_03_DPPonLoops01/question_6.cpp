@@ -26,6 +26,7 @@ bool isPrime(int num) {
     for (int i = 2; i * i <= num; i++) {
         if (num % i == 0) return false;
     }
+
     return true;
 }
 
@@ -43,3 +44,25 @@ int main() {
     return 0;
 }
 
+// method 2
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, count = 0;
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+        if (n % i == 0)
+            count++;
+    }
+
+    
+    if (count == 2)
+        cout << "Prime Number";
+    else
+        cout << "Not Prime";
+
+    return 0;
+}

@@ -1,0 +1,17 @@
+Section A: Concept Check (Easy)
+
+
+
+1. What is a character array in C++?
+
+
+Ans. A character array is an array that stores characters and ends with a null character '\0'.
+    example char name[6] = "Hello";
+
+
+
+
+
+
+
+

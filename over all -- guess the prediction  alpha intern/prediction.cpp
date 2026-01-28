@@ -3,7 +3,6 @@
 
 
 
-
 // question 2 
 
 
@@ -21,12 +20,9 @@
 
 
 
-
-
-
-
 // question 3
-    
+ 
+
 // #include <iostream>
 // using namespace std;
 // int main() {
@@ -51,6 +47,7 @@
 
 // question 4
     
+
 //#include <iostream>
 // using namespace std;
 // int main() {

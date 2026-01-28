@@ -1,0 +1,37 @@
+
+
+
+
+// 3. Input a string of even length and Reverse the first half of the string.
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    char str[50];
+    int length = 0;
+
+    cout << "Enter a string of even length: ";
+    cin.getline(str, 50);
+
+    // Find length
+    for (int i = 0; str[i] != '\0'; i++) {
+        length++;
+    }
+
+    int mid = length / 2;
+
+    // Reverse the first half
+    for (int i = 0; i < mid / 2; i++) {
+        char temp = str[i];
+        str[i] = str[mid - 1 - i];
+        str[mid - 1 - i] = temp;
+    }
+
+    cout << "Result string: " << str;
+
+    return 0;
+}

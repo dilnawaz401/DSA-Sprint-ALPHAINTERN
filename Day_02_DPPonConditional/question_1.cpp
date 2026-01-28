@@ -14,7 +14,7 @@ int main (){
     int n;
     cout<< "enter the value";
     cin>> n;
-    for (int i =0; i<=n;i++){
+    for (int i = 0; i<=n;i++){
         cout << "alpha intern"<< endl;
         
     }

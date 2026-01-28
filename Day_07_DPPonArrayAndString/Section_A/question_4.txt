@@ -1,0 +1,12 @@
+
+4. How is a character array different from a string (string class)?
+
+
+
+
+Ans. | Character Array                      | `string` Class          |    |
+     | ------------------------------------ | ---------------------------- |
+     | Stores characters ending with `'\0'` | Automatically manages `'\0'` |
+     | Fixed size                           | Dynamic (size can grow)      |
+     | Needs manual handling                | Easy to use with functions   |
+     | C-style string                       | C++ string object            |

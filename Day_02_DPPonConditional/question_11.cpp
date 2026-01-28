@@ -10,9 +10,12 @@ using namespace std;
 
 int main() {
     int n;
+    cout<< "enter the value of n";
     cin >> n;
-    for(int i = 3; i <= n; i += 3) {
+    int i = 3;
+    while(n>i){
         cout << i << " ";
+        i+=3;
     }
     return 0;
 }

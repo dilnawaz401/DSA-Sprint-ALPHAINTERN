@@ -1,0 +1,6 @@
+
+
+
+char arr[10];
+cin >> arr;
+cout << arr;
