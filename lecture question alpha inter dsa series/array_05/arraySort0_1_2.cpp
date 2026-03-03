@@ -1,3 +1,8 @@
+
+
+
+
+
 #include <iostream>
 #include <vector>
 #include <algorithm>     
@@ -8,7 +13,7 @@ vector <int>merge(vector<int>arr1,vector<int>&arr2){
     vector<int> res(n+m);
     int i = 0 ;
     int j = 0;
-    int k =0 ;
+    int k = 0 ;
     while (i<n&& j<m){
         if ( arr1[i]<arr2[j]){
             res[k]==arr1[i];
