@@ -11,6 +11,4 @@ void display (int a[],int size){
     cout<<size;
     display(arr , size);
     return 0;
-    
-
 }
