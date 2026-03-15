@@ -2,9 +2,10 @@
 #include <vector>
 #include <algorithm>     
 using namespace std;
-void display(vector<int >& a){
+void display(vector<int > & a){
     for(int  i = 0 ; i <a.size();i++){
-    cout<<a[i]<<" "<<endl;
+
+        cout<<a[i]<<" "<<endl;
     }
 }
 int main(){

@@ -1,30 +1,30 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+
 int main(){ 
     int x;
-    cout<<"enter the target";
+    cout<<"Enter the target: ";
     cin>>x;
     
     
-    vector<int> v;
     int n;
-    cout<< "enter the size of vector";
+    cout<<"Enter the size of vector: ";
     cin>>n;
+    vector<int> v;
 
-    cout<< "enter element ";
-    for(int i =0; i <n;i++){
+    cout<<"Enter elements: ";
+    for(int i = 0; i < n; i++){
         int q;
-        cin>>q;
+        cin >> q;
         v.push_back(q);
-        //
     }
-        for (int i=1 ; i<=v.size()-2;i++){
-            for (int j=i+1;j<=v.size()-1;j++){
-                if (v[i]+v[j]==x){
-                    cout<< i<<" "<< j <<endl;
-                }
+
+    for(int i = 0; i < v.size()-1; i++){
+        for(int j = i+1; j < v.size(); j++){
+            if(v[i] + v[j] == x){
+                cout << i << " " << j << endl;
             }
         }
     }
-   
+}

@@ -31,7 +31,7 @@ int main(){
     
     
     cout<<"after reversal----------"<<endl;
-    reversebypart(1,3,v);
+    reversebypart(0,2,v);
     display(v);
 }
 
