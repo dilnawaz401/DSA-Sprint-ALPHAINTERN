@@ -128,7 +128,7 @@
 
 
 
-// default constructor
+// // default constructor
 
 
 
@@ -252,61 +252,61 @@
 
 
 
-#include<iostream>
-using namespace std;
-class Student {
-    public:
-         string name;
-         int rollno;
-         string department ;
-           Student(string n, int rno, string d){
-            name=n;
-            rollno=rno;
-            department=d;
+// #include<iostream>
+// using namespace std;
+// class Student {
+//     public:
+//          string name;
+//          int rollno;
+//          string department ;
+//            Student(string n, int rno, string d){
+//             name=n;
+//             rollno=rno;
+//             department=d;
 
-         }
+//          }
 
-         Student(string d,string n , int rno){
-            name = n;
-            rollno=rno;
-            department=d;
-         }
+//          Student(string d,string n , int rno){
+//             name = n;
+//             rollno=rno;
+//             department=d;
+//          }
 
-         Student(string n, int rno){
-            name = n;
-            rollno = rno;
+//          Student(string n, int rno){
+//             name = n;
+//             rollno = rno;
           
-         }
+//          }
 
-};
+// };
 
 
-void print(Student s ){
-    cout << s.name << " " << s.rollno << " " << s.department << endl;
-}
+// void print(Student s ){
+//     cout << s.name << " " << s.rollno << " " << s.department << endl;
+// }
 
-int main(){
+// int main(){
     
 
-    Student s1("jaishri", 11234,"AIML");
-    Student s2("alex", 12345);
-    Student s3("AIML","hgjh", 12349);
+//     Student s1("jaishri", 11234,"AIML");
+//     Student s2("alex", 12345);
+//     Student s3("AIML","hgjh", 12349);
  
  
 
-    // copy constructor 
-    // 2 method to print 
+//     // copy constructor 
+//     // 2 method to print 
     
-    // 1st
-    Student s4=s1;
-    print (s4);
+//     // 1st
+//     Student s4=s1;
+//     print (s4);
 
-    // 2nd 
-    // Student s5(s1);
-    // print (s1);
+//     // 2nd 
+//     // Student s5(s1);
+//     // print (s1);
 
-    print(s2);
-    print(s3);
-    print(s4);
+//     print(s2);
+//     print(s3);
+//     print(s4);
 
-}
+// }

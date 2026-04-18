@@ -16,6 +16,7 @@ int main(){
     Node b(20); 
     Node c(30);
     Node d(40);
+    
     // cout<<b.val;
   
 
@@ -153,6 +154,8 @@ class Node{
         }
 
 };
+
+
 int main(){
     Node a(10);
     Node b(20); 
