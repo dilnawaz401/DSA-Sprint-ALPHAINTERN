@@ -1,3 +1,5 @@
+
+
 #include<iostream>
 using namespace std;
 
@@ -32,7 +34,7 @@ int size(Node* head){   // ✅ fixed parameter
 void displayrec(Node*head){
     if(head==NULL) return;
     displayrec(head->next);
-    
+
     cout<< head->val<<endl;
     
 }
@@ -50,6 +52,6 @@ int main(){
 
     // display(&a);   // ✅ pass address
 
-    cout << "Size: " << size(&a)<<endl;   // ✅ print result
+    cout << "Size : " << size(&a)<<endl;   // ✅ print result
     displayrec(&a);
 }
