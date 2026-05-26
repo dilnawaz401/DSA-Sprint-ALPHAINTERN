@@ -71,4 +71,4 @@ int main() {
     printList(merged);
 
     return 0;
-}
+};
