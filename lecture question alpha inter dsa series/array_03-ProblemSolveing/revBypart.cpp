@@ -8,10 +8,10 @@
 using namespace std;
 void display(vector<int >& a){
     for(int  i = 0 ; i <a.size();i++){
-    cout<<a[i]<<" "<<endl;
+        cout<<a[i]<<" "<<endl;
     }
 }
-void reversebypart(int i , int j , vector<int>&v){
+void reversebypart (int i , int j , vector<int>&v){
     while (i<=j){
         int temp =v[i];
         v[i]=v[j];
@@ -34,6 +34,7 @@ int main(){
     reversebypart(0,2,v);
     display(v);
 }
+
 
 
 

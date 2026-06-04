@@ -4,7 +4,7 @@
 #include <vector>
 #include <algorithm>     
 using namespace std;
-void display(vector<int > & a){
+void display(vector<int > &a){
     for(int  i = 0 ; i <a.size();i++){
 
         cout<<a[i]<<" "<<endl;
@@ -16,6 +16,8 @@ int main(){
     v.push_back(4);
     v.push_back(3);
     v.push_back(2);
+    v.push_back(70);
+    v.push_back(28);
     display(v);
     int i=0;
     int j = v.size()-1;
