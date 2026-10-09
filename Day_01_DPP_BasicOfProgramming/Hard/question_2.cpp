@@ -13,9 +13,31 @@ int main() {
     cout << "Enter a 2-digit number ";
     cin >> num;
     while(num>0){
-    reversed = (reversed * 10)+ (num%10);
+    reversed = (reversed * 10) + (num%10);
     num = num/ 10;
     }
     cout << "Reversed number: " << reversed;
+    return 0;
+}
+
+
+
+//  using for loop 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num, reversed = 0;
+
+    cout << "Enter a 2-digit number: ";
+    cin >> num;
+
+    for (; num > 0; num = num / 10) {
+        reversed = (reversed * 10) + (num % 10);
+    }
+
+    cout << "Reversed number: " << reversed;
+
     return 0;
 }

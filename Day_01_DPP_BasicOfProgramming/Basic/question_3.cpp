@@ -13,7 +13,7 @@ int main(){
     int a,b;
     cout<< "enter the value of a"<< endl;
     cin>> a;
-    cout<< "enter the value of a"<< endl;
+    cout<< "enter the value of b"<< endl;
     cin>>b;
     cout<<a%b<<endl;
     cout<<b%a<<endl;

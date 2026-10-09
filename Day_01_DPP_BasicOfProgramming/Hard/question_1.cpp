@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 int main (){
-    int n ,sum = 0;
+    int n , sum = 0;
     cout << "enter the value ";
     cin>>n;
     while(n>0){
@@ -20,3 +20,21 @@ cout<<"sum of digits is ="<<sum;
 return 0;
 
 }
+
+
+
+
+//  using for loop 
+
+#include <iostream>
+ using namespace std;
+  int main()
+   { 
+    int n,
+     sum = 0;
+      cout << "Enter the value: "; 
+      cin >> n;
+       for (; n > 0; n = n / 10) {
+        sum = sum + n % 10; }
+        cout << "Sum of digits is = " << sum;
+        return 0; }

@@ -11,7 +11,10 @@ using namespace std;
 int main() {
     int a, b;
     cout << "Enter two integers: ";
-    cin >> a >> b;
+    cin >> a ;
+    cout << "Enter two integers: ";
+
+    cin>> b;
     double result = double(a) / double(b);
     cout << "Floating division result: " << result;
     return 0;
